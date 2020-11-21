@@ -19,8 +19,8 @@ function App() {
     setName(e.target.value)
   }
 
-  function submitCrushName(e) {
-    setCrushName(e.target.value)
+  function submitCrushName(event) {
+    setCrushName(event.target.value)
   }
 
   function submitNames() {
