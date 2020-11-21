@@ -15,8 +15,8 @@ function App() {
     "https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/160/apple/271/sun-with-face_1f31e.png",
   ]
 
-  function submitName(e) {
-    setName(e.target.value)
+  function submitName(event) {
+    setName(event.target.value)
   }
 
   function submitCrushName(event) {
