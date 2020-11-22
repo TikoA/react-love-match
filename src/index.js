@@ -6,7 +6,7 @@ import App from './App';
 
 ReactDOM.render(
   <ChakraProvider theme={ theme }>
-    <App />
+    <App/>
   </ChakraProvider>,
   document.getElementById('root')
 );
