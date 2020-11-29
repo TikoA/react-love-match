@@ -2,7 +2,7 @@ import { useState } from 'react'
 import { Box, Image, Button, Text, useColorMode, useColorModeValue, Input, Stack, Switch } from "@chakra-ui/react";
 
 function App() {
-  const { colorMode, toggleColorMode } = useColorMode()
+  const {colorMode, toggleColorMode} = useColorMode()
   const [names, setNames] = useState([])
   const [name, setName] = useState('')
   const [crushName, setCrushName] = useState('')
